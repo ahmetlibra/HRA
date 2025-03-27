@@ -1,0 +1,11 @@
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\bin\Debug\net8.0\Persistence.deps.json
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\bin\Debug\net8.0\Persistence.dll
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\bin\Debug\net8.0\Persistence.pdb
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persistence.dll
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persistence.pdb
+D:\TestArea\RSA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\ref\Persistence.dll

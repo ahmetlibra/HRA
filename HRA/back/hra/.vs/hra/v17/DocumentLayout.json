@@ -1,36 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|solutionrelative:src\\users\\presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\entities\\concrete\\wrappers\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\entities\\concrete\\wrappers\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\entities\\abstract\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\entities\\abstract\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F482C7-150B-451A-AB12-125D6DD95ED6}|src\\Users\\Core\\Domain\\Domain.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\core\\domain\\entities\\userclaimtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F482C7-150B-451A-AB12-125D6DD95ED6}|src\\Users\\Core\\Domain\\Domain.csproj|solutionrelative:src\\users\\core\\domain\\entities\\userclaimtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F482C7-150B-451A-AB12-125D6DD95ED6}|src\\Users\\Core\\Domain\\Domain.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\core\\domain\\entities\\userclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F482C7-150B-451A-AB12-125D6DD95ED6}|src\\Users\\Core\\Domain\\Domain.csproj|solutionrelative:src\\users\\core\\domain\\entities\\userclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F482C7-150B-451A-AB12-125D6DD95ED6}|src\\Users\\Core\\Domain\\Domain.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\core\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F482C7-150B-451A-AB12-125D6DD95ED6}|src\\Users\\Core\\Domain\\Domain.csproj|solutionrelative:src\\users\\core\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F482C7-150B-451A-AB12-125D6DD95ED6}|src\\Users\\Core\\Domain\\Domain.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\core\\domain\\entities\\addres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F482C7-150B-451A-AB12-125D6DD95ED6}|src\\Users\\Core\\Domain\\Domain.csproj|solutionrelative:src\\users\\core\\domain\\entities\\addres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -38,102 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Presentation\\WebApi\\Program.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Users\\Presentation\\WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:53:06.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiceResponse.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Entities\\Concrete\\Wrappers\\ServiceResponse.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Core\\Entities\\Concrete\\Wrappers\\ServiceResponse.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Entities\\Concrete\\Wrappers\\ServiceResponse.cs",
-              "RelativeToolTip": "src\\Shared\\Core\\Entities\\Concrete\\Wrappers\\ServiceResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:45:48.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Entities\\Abstract\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Core\\Entities\\Abstract\\BaseResponse.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Entities\\Abstract\\BaseResponse.cs",
-              "RelativeToolTip": "src\\Shared\\Core\\Entities\\Abstract\\BaseResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:45:36.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserClaimType.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Entities\\UserClaimType.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Core\\Domain\\Entities\\UserClaimType.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Entities\\UserClaimType.cs",
-              "RelativeToolTip": "src\\Users\\Core\\Domain\\Entities\\UserClaimType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:37:58.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserClaims.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Entities\\UserClaims.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Core\\Domain\\Entities\\UserClaims.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Entities\\UserClaims.cs",
-              "RelativeToolTip": "src\\Users\\Core\\Domain\\Entities\\UserClaims.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:37:39.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Core\\Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "src\\Users\\Core\\Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:37:27.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Addres.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Entities\\Addres.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Core\\Domain\\Entities\\Addres.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Entities\\Addres.cs",
-              "RelativeToolTip": "src\\Users\\Core\\Domain\\Entities\\Addres.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T07:37:12.741Z",
-              "EditorCaption": ""
             }
           ]
         }

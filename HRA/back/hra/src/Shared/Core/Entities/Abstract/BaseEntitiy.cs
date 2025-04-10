@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Core.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Common
+namespace Core.Entities.Abstract
 {
-    public abstract class BaseEntitiy : IEntity
+    public class BaseEntitiy : IEntity
     {
         public Guid Id { get; set; }
 
@@ -18,8 +19,6 @@ namespace Domain.Common
 
         public string? CreatedUserId { get; set; }
 
-        public string? UpdatedUserId { get;set; }
-
-
+        public string? UpdatedUserId { get; set; }
     }
 }

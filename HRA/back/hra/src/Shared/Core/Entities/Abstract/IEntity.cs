@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Common
+namespace Core.Entities.Abstract
 {
-    interface IEntity
+    public interface IEntity
     {
     }
 }

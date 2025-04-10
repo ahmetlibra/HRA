@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Presentation\\WebApi\\WebApi.csproj": {}
+    "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Presentation\\WebApi\\WebApi.csproj": {
+    "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Presentation\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Presentation\\WebApi\\WebApi.csproj",
+        "projectPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Presentation\\WebApi\\obj\\",
+        "outputPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

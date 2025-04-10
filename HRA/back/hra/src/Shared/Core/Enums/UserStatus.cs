@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Wrappers
+namespace Core.Enums
 {
-    public abstract class BaseResponse
+    public enum UserStatus
     {
+        Passive,
+        Active,
+        Waiting,
+        Deleted
     }
+  
 }

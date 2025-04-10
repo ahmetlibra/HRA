@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj": {}
+    "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj": {
+    "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-        "outputPath": "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\obj\\",
+        "outputPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -66,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

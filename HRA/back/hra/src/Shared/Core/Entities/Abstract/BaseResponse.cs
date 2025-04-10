@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Domain.Common
+namespace Core.Entities.Abstract
 {
-    public enum UserStatus
+    public abstract class BaseResponse
     {
-        Passive,
-        Active,
-        Waiting,
-        Deleted
     }
 }

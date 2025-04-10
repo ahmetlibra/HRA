@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sMrR1vAwJCQ=",
+  "dgSpecHash": "BNyZR44vxHc=",
   "success": true,
-  "projectFilePath": "D:\\TestArea\\RSA\\back\\hra\\src\\Users\\Core\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

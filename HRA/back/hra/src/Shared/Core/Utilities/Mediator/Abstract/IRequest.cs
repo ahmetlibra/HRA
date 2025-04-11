@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.Abstract
+namespace Core.Utilities.Mediator.Abstract
 {
-    public interface IUserRepository
+    public interface IRequest<TResponse>
     {
     }
 }

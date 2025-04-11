@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class UserClaims : BaseEntitiy, IEntity
+    public class UserRole : IEntity
     {
         public Guid UserId { get; set; }
-        public Guid ClaimId { get; set; }
+        public virtual User User { get; set; } // Navigation property
+
+        public Guid RoleId { get; set; }
+        public virtual Role Role { get; set; } // Navigation property
     }
 }

@@ -2,6 +2,7 @@ using Core.Utilities.Mediator.Abstract;
 using Core.Utilities.Mediator.Concrete;
 using Microsoft.EntityFrameworkCore;
 using Persistence.Data.HrsDbContext;
+using WebApi.DependencyResolvers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,7 @@ builder.Services.AddScoped<IMediator, CustomMediator>();
 
 builder.Services.AddDbContext<HrsDbContext>(options =>
     options.UseNpgsql("ConnectionStrings"));
+builder.Services.AddProjectServices();
 
 
 

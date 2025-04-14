@@ -369,6 +369,20 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1201,6 +1215,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Application/Application.csproj",
+      "msbuildProject": "../../Core/Application/Application.csproj"
+    },
     "Core/1.0.0": {
       "type": "project",
       "path": "../../../Shared/Core/Core.csproj",
@@ -1219,6 +1238,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Application >= 1.0.0",
       "Core >= 1.0.0",
       "Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
@@ -1259,6 +1279,9 @@
           "projectReferences": {
             "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Core.csproj": {
               "projectPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Core.csproj"
+            },
+            "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Application\\Application.csproj": {
+              "projectPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Application\\Application.csproj"
             },
             "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj": {
               "projectPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj"

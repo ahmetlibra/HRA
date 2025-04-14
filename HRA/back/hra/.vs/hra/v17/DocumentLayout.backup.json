@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\data\\concrete\\ef\\efentityrepostorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\data\\concrete\\ef\\efentityrepostorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\presentation\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|solutionrelative:src\\users\\presentation\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\data\\abstract\\ipgrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\data\\abstract\\ipgrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{584580D5-915C-45BE-8063-50B2758C3CBB}|src\\Users\\Core\\Application\\Application.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\core\\application\\queries\\users\\getall\\getalluserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{584580D5-915C-45BE-8063-50B2758C3CBB}|src\\Users\\Core\\Application\\Application.csproj|solutionrelative:src\\users\\core\\application\\queries\\users\\getall\\getalluserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|solutionrelative:src\\users\\presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\entities\\abstract\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\entities\\abstract\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{584580D5-915C-45BE-8063-50B2758C3CBB}|src\\Users\\Core\\Application\\Application.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\core\\application\\queries\\users\\getall\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{584580D5-915C-45BE-8063-50B2758C3CBB}|src\\Users\\Core\\Application\\Application.csproj|solutionrelative:src\\users\\core\\application\\queries\\users\\getall\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7248D877-D427-4F0C-984E-6E68E09118C0}|src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\infrastructer\\persistence\\persistence\\data\\hrsdbcontext\\hrsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7248D877-D427-4F0C-984E-6E68E09118C0}|src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj|solutionrelative:src\\users\\infrastructer\\persistence\\persistence\\data\\hrsdbcontext\\hrsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\entities\\concrete\\wrappers\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\entities\\concrete\\wrappers\\serviceresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7248D877-D427-4F0C-984E-6E68E09118C0}|src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\infrastructer\\persistence\\persistence\\data\\hrsdbcontext\\hrsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7248D877-D427-4F0C-984E-6E68E09118C0}|src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj|solutionrelative:src\\users\\infrastructer\\persistence\\persistence\\data\\hrsdbcontext\\hrsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{584580D5-915C-45BE-8063-50B2758C3CBB}|src\\Users\\Core\\Application\\Application.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\core\\application\\queries\\users\\getall\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{584580D5-915C-45BE-8063-50B2758C3CBB}|src\\Users\\Core\\Application\\Application.csproj|solutionrelative:src\\users\\core\\application\\queries\\users\\getall\\getalluserquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,60 +34,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Users\\Presentation\\WebApi\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\Users\\Presentation\\WebApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T13:07:36.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Entities\\Abstract\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "src\\Shared\\Core\\Entities\\Abstract\\BaseResponse.cs",
+              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Entities\\Abstract\\BaseResponse.cs",
+              "RelativeToolTip": "src\\Shared\\Core\\Entities\\Abstract\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T10:58:45.512Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EfEntityRepostoryBase.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Data\\Concrete\\Ef\\EfEntityRepostoryBase.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Core\\Data\\Concrete\\Ef\\EfEntityRepostoryBase.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Data\\Concrete\\Ef\\EfEntityRepostoryBase.cs",
-              "RelativeToolTip": "src\\Shared\\Core\\Data\\Concrete\\Ef\\EfEntityRepostoryBase.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T11:33:59.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IPgRepository.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Data\\Abstract\\IPgRepository.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Core\\Data\\Abstract\\IPgRepository.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Data\\Abstract\\IPgRepository.cs",
-              "RelativeToolTip": "src\\Shared\\Core\\Data\\Abstract\\IPgRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Title": "GetAllUserQueryHandler.cs",
+              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQueryHandler.cs",
+              "RelativeDocumentMoniker": "src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQueryHandler.cs",
+              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQueryHandler.cs",
+              "RelativeToolTip": "src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQueryHandler.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T11:20:42.128Z",
+              "WhenOpened": "2025-04-14T12:54:01.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Presentation\\WebApi\\Program.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Users\\Presentation\\WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T11:04:26.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "HrsDbContext.cs",
               "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Data\\HrsDbContext\\HrsDbContext.cs",
               "RelativeDocumentMoniker": "src\\Users\\Infrastructer\\Persistence\\Persistence\\Data\\HrsDbContext\\HrsDbContext.cs",
               "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Data\\HrsDbContext\\HrsDbContext.cs",
               "RelativeToolTip": "src\\Users\\Infrastructer\\Persistence\\Persistence\\Data\\HrsDbContext\\HrsDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T11:04:05.463Z",
               "EditorCaption": ""
@@ -100,14 +100,14 @@
               "RelativeDocumentMoniker": "src\\Shared\\Core\\Entities\\Concrete\\Wrappers\\ServiceResponse.cs",
               "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Entities\\Concrete\\Wrappers\\ServiceResponse.cs",
               "RelativeToolTip": "src\\Shared\\Core\\Entities\\Concrete\\Wrappers\\ServiceResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T10:57:05.362Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GetAllUserQuery.cs",
               "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQuery.cs",
               "RelativeDocumentMoniker": "src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQuery.cs",

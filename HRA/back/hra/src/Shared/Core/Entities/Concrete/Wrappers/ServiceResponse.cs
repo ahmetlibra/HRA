@@ -9,5 +9,6 @@ namespace Core.Entities.Concrete.Wrappers
 {
     public class ServiceResponse<T> : BaseResponse
     {
+        public T Data { get; set; }
     }
 }

@@ -92,3 +92,5 @@ D:\TestArea\HRA\HRA\back\hra\src\Users\Presentation\WebApi\bin\Debug\net8.0\Pers
 D:\TestArea\HRA\HRA\back\hra\src\Users\Presentation\WebApi\bin\Debug\net8.0\Core.pdb
 D:\TestArea\HRA\HRA\back\hra\src\Users\Presentation\WebApi\bin\Debug\net8.0\Persistence.pdb
 D:\TestArea\HRA\HRA\back\hra\src\Users\Presentation\WebApi\bin\Debug\net8.0\Domain.pdb
+D:\TestArea\HRA\HRA\back\hra\src\Users\Presentation\WebApi\bin\Debug\net8.0\Application.dll
+D:\TestArea\HRA\HRA\back\hra\src\Users\Presentation\WebApi\bin\Debug\net8.0\Application.pdb

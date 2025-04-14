@@ -8,20 +8,14 @@ using System.Threading.Tasks;
 
 namespace Core.Data.Abstract
 {
-    public interface IPgRepository<T>  where T : class, IEntity, new()
+    public interface IPgRepository<T> where T : class, IEntity, new()
     {
         Task<List<T>> GetAll(Expression<Func<T, bool>> filter = null);
-
         Task<T> Get(Expression<Func<T, bool>> filter);
-
-        Task<T> GetById(Guid Id);
-
+        Task<T> GetById(Guid id);
         Task Add(T entity);
-
         Task Update(T entity);
-
         Task Delete(T entity);
-
-        Task Delete(Guid Id);
+        Task Delete(Guid id);
     }
 }

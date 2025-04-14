@@ -5,6 +5,27 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Users": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "request",
+            "in": "query",
+            "schema": {
+              "$ref": "#/components/schemas/GetAllUserQuery"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Test": {
       "get": {
         "tags": [
@@ -25,5 +46,12 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "GetAllUserQuery": {
+        "type": "object",
+        "additionalProperties": false
+      }
+    }
+  }
 }

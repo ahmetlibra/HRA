@@ -22,27 +22,42 @@ namespace Application.Queries.Users.GetAll
 
         private async Task<ServiceResponse<GetAllUserResponse>> GetAllUsers(GetAllUserQuery request)
         {
-            var users = await userRepository.GetAll();
-            if (users == null)
+
+            try
+            {
+
+                var users = await userRepository.GetAll();
+                if (users == null)
+                    return new ServiceResponse<GetAllUserResponse>
+                    {
+                        Success = false,
+                        Message = "No users found"
+                    };
+                var userList = users.Select(user => new UserResponseDto(
+                    Name: user.Name,
+                    Surname: user.Surname,
+                    BirthDay: user.BirthDay,
+                    Email: user.Email,
+                    PhoneNumber: user.PhoneNumber
+                    )).ToList();
+
+                return new ServiceResponse<GetAllUserResponse>
+                {
+                    Success = true,
+                    Message = "Users retrieved successfully",
+                    Data = new GetAllUserResponse(userList)
+                };
+            }
+            catch (Exception ex)
+            {
                 return new ServiceResponse<GetAllUserResponse>
                 {
                     Success = false,
-                    Message = "No users found"
+                    Message = ex.Message
                 };
-            var userList = users.Select(user => new UserResponseDto(
-                Name: user.Name,
-                Surname: user.Surname,
-                BirthDay: user.BirthDay,
-                Email: user.Email,
-                PhoneNumber: user.PhoneNumber
-                )).ToList();
 
-            return new ServiceResponse<GetAllUserResponse>
-            {
-                Success = true,
-                Message = "Users retrieved successfully",
-                Data = new GetAllUserResponse(userList)
-            };
+
+            }
         }
     }
 }

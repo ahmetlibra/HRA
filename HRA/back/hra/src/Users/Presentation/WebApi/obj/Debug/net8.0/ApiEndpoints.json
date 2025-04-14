@@ -16,5 +16,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "WebApi.Controllers.UsersController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Application.Queries.Users.GetAll.GetAllUserQuery",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

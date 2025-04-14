@@ -11,7 +11,7 @@ namespace WebApi.Controllers
     {
 
         [HttpGet]
-        public async Task<IActionResult> GetAllUsers([FromQuery] GetAllUserQuery request, CancellationToken cancellationToken)
+        public async Task<IActionResult> GetAllUsers([FromQuery] GetAllUserQuery request)
         {
            
             var result = await mediator.Send(request);

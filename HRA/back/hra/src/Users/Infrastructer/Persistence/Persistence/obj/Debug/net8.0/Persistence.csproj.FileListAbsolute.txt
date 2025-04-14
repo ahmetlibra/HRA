@@ -21,3 +21,9 @@ D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj
 D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persistence.pdb
 D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\bin\Debug\net8.0\Core.dll
+D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\bin\Debug\net8.0\Domain.dll
+D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\bin\Debug\net8.0\Domain.pdb
+D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\bin\Debug\net8.0\Core.pdb
+D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+D:\TestArea\HRA\HRA\back\hra\src\Users\Infrastructer\Persistence\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date

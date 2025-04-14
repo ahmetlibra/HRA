@@ -21,3 +21,7 @@ D:\TestArea\HRA\HRA\back\hra\src\Users\Core\Application\obj\Debug\net8.0\Applica
 D:\TestArea\HRA\HRA\back\hra\src\Users\Core\Application\obj\Debug\net8.0\refint\Application.dll
 D:\TestArea\HRA\HRA\back\hra\src\Users\Core\Application\obj\Debug\net8.0\Application.pdb
 D:\TestArea\HRA\HRA\back\hra\src\Users\Core\Application\obj\Debug\net8.0\ref\Application.dll
+D:\TestArea\HRA\HRA\back\hra\src\Users\Core\Application\bin\Debug\net8.0\Core.dll
+D:\TestArea\HRA\HRA\back\hra\src\Users\Core\Application\bin\Debug\net8.0\Core.pdb
+D:\TestArea\HRA\HRA\back\hra\src\Users\Core\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\TestArea\HRA\HRA\back\hra\src\Users\Core\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date

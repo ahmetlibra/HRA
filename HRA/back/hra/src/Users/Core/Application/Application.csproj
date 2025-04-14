@@ -8,11 +8,13 @@
 
   <ItemGroup>
     <Folder Include="Abstract\" />
-    <Folder Include="Dtos\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Mappers\" />
     <Folder Include="Commands\" />
-    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Shared\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>

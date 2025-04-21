@@ -1,48 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\TestArea\\HRA\\HRA\\back\\hra\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{584580D5-915C-45BE-8063-50B2758C3CBB}|src\\Users\\Core\\Application\\Application.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\core\\application\\queries\\users\\getall\\getalluserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{584580D5-915C-45BE-8063-50B2758C3CBB}|src\\Users\\Core\\Application\\Application.csproj|solutionrelative:src\\users\\core\\application\\queries\\users\\getall\\getalluserqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\presentation\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|solutionrelative:src\\users\\presentation\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|solutionrelative:src\\users\\presentation\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\utilities\\mediator\\concrete\\custommediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\utilities\\mediator\\concrete\\custommediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\utilities\\mediator\\abstract\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\utilities\\mediator\\abstract\\irequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\utilities\\mediator\\abstract\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\utilities\\mediator\\abstract\\imediator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\shared\\core\\utilities\\mediator\\abstract\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{529BF53D-F0E9-45EA-AB31-4D751DE87D9E}|src\\Shared\\Core\\Core.csproj|solutionrelative:src\\shared\\core\\utilities\\mediator\\abstract\\irequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\presentation\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|solutionrelative:src\\users\\presentation\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7248D877-D427-4F0C-984E-6E68E09118C0}|src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\infrastructer\\persistence\\persistence\\data\\repositories\\ef\\efentityrepostorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7248D877-D427-4F0C-984E-6E68E09118C0}|src\\Users\\Infrastructer\\Persistence\\Persistence\\Persistence.csproj|solutionrelative:src\\users\\infrastructer\\persistence\\persistence\\data\\repositories\\ef\\efentityrepostorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|d:\\testarea\\hra\\hra\\back\\hra\\src\\users\\presentation\\webapi\\dependencyresolvers\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69810FB5-F4A9-4F89-83C1-0F3A75AFBAF5}|src\\Users\\Presentation\\WebApi\\WebApi.csproj|solutionrelative:src\\users\\presentation\\webapi\\dependencyresolvers\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -50,141 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IRequest.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IRequest.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IRequest.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IRequest.cs",
-              "RelativeToolTip": "src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:07:36.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IMediator.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IMediator.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IMediator.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IMediator.cs",
-              "RelativeToolTip": "src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IMediator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:07:34.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CustomMediator.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Utilities\\Mediator\\Concrete\\CustomMediator.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Core\\Utilities\\Mediator\\Concrete\\CustomMediator.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Utilities\\Mediator\\Concrete\\CustomMediator.cs",
-              "RelativeToolTip": "src\\Shared\\Core\\Utilities\\Mediator\\Concrete\\CustomMediator.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T13:58:32.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Presentation\\WebApi\\Program.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Program.cs",
-              "RelativeToolTip": "src\\Users\\Presentation\\WebApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T14:04:11.973Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Users\\Presentation\\WebApi\\appsettings.json",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\Users\\Presentation\\WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-14T14:01:26.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Presentation\\WebApi\\Controllers\\UsersController.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Users\\Presentation\\WebApi\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T13:57:13.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRequestHandler.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IRequestHandler.cs",
-              "RelativeDocumentMoniker": "src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IRequestHandler.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IRequestHandler.cs",
-              "RelativeToolTip": "src\\Shared\\Core\\Utilities\\Mediator\\Abstract\\IRequestHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T13:55:22.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GetAllUserQueryHandler.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQueryHandler.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQueryHandler.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQueryHandler.cs",
-              "RelativeToolTip": "src\\Users\\Core\\Application\\Queries\\Users\\GetAll\\GetAllUserQueryHandler.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAYwDQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T13:49:10.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EfEntityRepostoryBase.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Data\\Repositories\\Ef\\EfEntityRepostoryBase.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Infrastructer\\Persistence\\Persistence\\Data\\Repositories\\Ef\\EfEntityRepostoryBase.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Infrastructer\\Persistence\\Persistence\\Data\\Repositories\\Ef\\EfEntityRepostoryBase.cs",
-              "RelativeToolTip": "src\\Users\\Infrastructer\\Persistence\\Persistence\\Data\\Repositories\\Ef\\EfEntityRepostoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T13:30:24.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\DependencyResolvers\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Users\\Presentation\\WebApi\\DependencyResolvers\\ServiceCollectionExtensions.cs",
-              "ToolTip": "D:\\TestArea\\HRA\\HRA\\back\\hra\\src\\Users\\Presentation\\WebApi\\DependencyResolvers\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "src\\Users\\Presentation\\WebApi\\DependencyResolvers\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAB8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T13:19:39.267Z",
-              "EditorCaption": ""
             }
           ]
         }

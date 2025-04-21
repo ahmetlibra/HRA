@@ -38,7 +38,8 @@ namespace Application.Queries.Users.GetAll
                     Surname: user.Surname,
                     BirthDay: user.BirthDay,
                     Email: user.Email,
-                    PhoneNumber: user.PhoneNumber
+                    PhoneNumber: user.PhoneNumber,
+                    UserRule :null
                     )).ToList();
 
                 return new ServiceResponse<GetAllUserResponse>

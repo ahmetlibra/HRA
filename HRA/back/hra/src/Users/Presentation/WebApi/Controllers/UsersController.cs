@@ -1,4 +1,5 @@
 ﻿using Application.Queries.Users.GetAll;
+using Application.Queries.Users.GetById;
 using Core.Utilities.Mediator.Abstract;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,10 +11,20 @@ namespace WebApi.Controllers
     public class UsersController(IMediator mediator) : ControllerBase
     {
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<IActionResult> GetAllUsers([FromQuery] GetAllUserQuery request)
         {
            
+            var result = await mediator.Send(request);
+
+            if (!result.Success)
+                return BadRequest(result);
+            return Ok(result);
+        }
+        [HttpGet("GetById")]
+        public async Task<IActionResult> GetById([FromQuery] GetByIdUserQuery request)
+        {
+
             var result = await mediator.Send(request);
 
             if (!result.Success)

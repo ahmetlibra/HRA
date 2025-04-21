@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Users": {
+    "/api/Users/GetAll": {
       "get": {
         "tags": [
           "Users"
@@ -16,6 +16,27 @@
             "in": "query",
             "schema": {
               "$ref": "#/components/schemas/GetAllUserQuery"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/GetById": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
         ],

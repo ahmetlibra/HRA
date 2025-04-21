@@ -11,7 +11,8 @@ namespace Application.Dtos.Users
          string Surname,
          long BirthDay,
         string Email,
-        short PhoneNumber
+        short PhoneNumber,
+        UserRuleDto? UserRule
 
         );
 }

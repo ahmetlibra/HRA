@@ -17,9 +17,8 @@ builder.Services.AddSwaggerGen();
 // Mediator
 builder.Services.AddScoped<IMediator, CustomMediator>();
 
-
 builder.Services.AddDbContext<HrsUserDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("ConnectionStrings")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSql")));
 builder.Services.AddProjectServices();
 
 

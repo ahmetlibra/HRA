@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 
 namespace Application.Queries.Users.GetAll
 {
-    public record GetAllUserResponse(IEnumerable<UserResponseDto> rows);
+    public record GetAllUserResponse(IEnumerable<UserDto> rows);
 }

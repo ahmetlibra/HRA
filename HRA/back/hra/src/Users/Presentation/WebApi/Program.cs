@@ -21,12 +21,23 @@ builder.Services.AddDbContext<HrsUserDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("PostgreSql")));
 builder.Services.AddProjectServices();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
+
 
 
 var app = builder.Build();
 
 
-
+app.UseCors("AllowAll");
 app.MapGet("api/Test/", () => "Hello, World!");
 
 

@@ -21,6 +21,8 @@ namespace Domain.Entities
 
         public Int16? IdentityNumber { get; set; }
 
+        public string Password { get; set; }
+
         public virtual ICollection<UserRole> UserRoles { get; set; } = new HashSet<UserRole>();
 
 

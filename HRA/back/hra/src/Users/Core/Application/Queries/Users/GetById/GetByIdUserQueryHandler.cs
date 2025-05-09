@@ -12,29 +12,29 @@ using System.Threading.Tasks;
 
 namespace Application.Queries.Users.GetById
 {
-    public class GetByIdUserQueryResponse(
+    public class GetByIdUserQueryHandler(
         IPgRepository<User> userRepository
-        ) : IRequestHandler<GetByIdUserQuery, ServiceResponse<UserResponseDto>>
+        ) : IRequestHandler<GetByIdUserQuery, ServiceResponse<UserDto>>
     {
-        public async Task<ServiceResponse<UserResponseDto>> Handle(GetByIdUserQuery request)
+        public async Task<ServiceResponse<UserDto>> Handle(GetByIdUserQuery request)
         {
             return await GetById(request);
         }
 
-        private async Task<ServiceResponse<UserResponseDto>> GetById(GetByIdUserQuery request)
+        private async Task<ServiceResponse<UserDto>> GetById(GetByIdUserQuery request)
         {
             try
             {
 
                 var user = await userRepository.GetById(Guid.Parse(request.id));
                 if (user == null)
-                    return new ServiceResponse<UserResponseDto>
+                    return new ServiceResponse<UserDto>
                     {
                         Success = false,
                         Message = "No users found"
                     };
-                var returnUser = new UserResponseDto(user.Name, user.Surname, user.BirthDay, user.Email, user.PhoneNumber, null);
-                return new ServiceResponse<UserResponseDto>
+                var returnUser = new UserDto(user.Name, user.Surname, user.Password, user.BirthDay, user.Email, user.PhoneNumber);
+                return new ServiceResponse<UserDto>
                 {
                     Success = true,
                     Message = "Users retrieved successfully",
@@ -43,7 +43,7 @@ namespace Application.Queries.Users.GetById
             }
             catch (Exception ex)
             {
-                return new ServiceResponse<UserResponseDto>
+                return new ServiceResponse<UserDto>
                 {
                     Success = false,
                     Message = ex.Message

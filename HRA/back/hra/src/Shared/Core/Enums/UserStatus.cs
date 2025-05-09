@@ -8,6 +8,7 @@ namespace Core.Enums
 {
     public enum UserStatus
     {
+        None,
         Passive,
         Active,
         Waiting,

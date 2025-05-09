@@ -6,9 +6,5 @@ using System.Threading.Tasks;
 
 namespace Application.Dtos.Users
 {
-    public record UserRuleDto
-    {
-        public Guid Id;
-        public string Name;
-    }
+    public record UserRuleDto( Guid? Id, string? Name);
 }

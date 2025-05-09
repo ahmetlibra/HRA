@@ -33,13 +33,12 @@ namespace Application.Queries.Users.GetAll
                         Success = false,
                         Message = "No users found"
                     };
-                var userList = users.Select(user => new UserResponseDto(
+                var userList = users.Select(user => new UserDto(
                     Name: user.Name,
                     Surname: user.Surname,
                     BirthDay: user.BirthDay,
                     Email: user.Email,
-                    PhoneNumber: user.PhoneNumber,
-                    UserRule :null
+                    PhoneNumber: user.PhoneNumber
                     )).ToList();
 
                 return new ServiceResponse<GetAllUserResponse>

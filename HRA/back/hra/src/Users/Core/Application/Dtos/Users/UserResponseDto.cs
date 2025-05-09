@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Application.Dtos.Users
 {
-    public record UserResponseDto(
-         string Name,
-         string Surname,
-         long BirthDay,
-        string Email,
-        short PhoneNumber,
-        UserRuleDto? UserRule
-
-        );
+    public record UserDto(
+         string? Name = null,
+         string? Surname = null,
+         string? Password = null,
+         long? BirthDay = 0,
+        string? Email = null,
+        short? PhoneNumber = 0,
+        string? UserRule = null);
 }

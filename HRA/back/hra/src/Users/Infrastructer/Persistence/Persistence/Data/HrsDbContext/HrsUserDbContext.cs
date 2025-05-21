@@ -15,7 +15,8 @@ namespace Persistence.Data.HrsDbContext
         
         
         
-        } 
+        }
+
 
 
         public DbSet<Addres> Addreses { get; set; }

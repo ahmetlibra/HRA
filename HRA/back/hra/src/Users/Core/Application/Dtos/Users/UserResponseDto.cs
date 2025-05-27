@@ -12,6 +12,6 @@ namespace Application.Dtos.Users
          string? Password = null,
          long? BirthDay = 0,
         string? Email = null,
-        short? PhoneNumber = 0,
+        string? PhoneNumber = null,
         string? UserRule = null);
 }

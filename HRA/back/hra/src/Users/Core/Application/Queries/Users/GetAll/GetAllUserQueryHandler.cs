@@ -27,7 +27,7 @@ namespace Application.Queries.Users.GetAll
             {
 
                 var users = await userRepository.GetAll();
-                if (users == null)
+                if (users.Count == 0)
                     return new ServiceResponse<GetAllUserResponse>
                     {
                         Success = false,

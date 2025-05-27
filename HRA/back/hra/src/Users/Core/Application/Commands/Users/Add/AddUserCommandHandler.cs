@@ -26,7 +26,7 @@ namespace Application.Commands.Users.Add
                 Email = request.User.Email,
                 Name = request.User.Name,
                 Surname = request.User.Surname,
-                PhoneNumber = request.User.PhoneNumber ?? 0,
+                PhoneNumber = request.User.PhoneNumber ?? string.Empty,
                 Password = PasswordHasher.HashPassword(request.User.Password ?? "123456"),
                 UserStatus = UserStatus.Waiting
             };

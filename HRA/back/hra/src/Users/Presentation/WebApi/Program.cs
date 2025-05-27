@@ -1,6 +1,7 @@
 using Core.Utilities.Mediator.Abstract;
 using Core.Utilities.Mediator.Concrete;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using Persistence.Data.HrsDbContext;
 using WebApi.DependencyResolvers;
 
@@ -11,7 +12,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "My API",
+        Version = "v1"
+    });
+});
 
 
 // Mediator
@@ -45,7 +53,12 @@ app.MapGet("api/Test/", () => "Hello, World!");
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        //options.SwaggerEndpoint("/swagger/v1/swagger.json", "My API v1");
+        options.RoutePrefix = string.Empty; // Swagger UI root'ta olsun istersen
+    });
+
 }
 
 app.UseHttpsRedirection();

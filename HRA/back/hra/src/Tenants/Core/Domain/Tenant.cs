@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class Tenan:IEntity
+    public class Tenan:BaseEntitiy, IEntity
     {
     }
 }

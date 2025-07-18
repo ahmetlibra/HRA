@@ -11,6 +11,8 @@ namespace Core.Entities.Abstract
     {
         public Guid Id { get; set; }
 
+        public Guid TenantId { get; set; }
+
         public UserStatus UserStatus { get; set; } = UserStatus.None; //default value will be waiting for approve
 
         public long CreatedDate { get; set; } = DateTime.Now.Ticks;

@@ -9,6 +9,8 @@ namespace Domain.Entities
 {
     public class User : BaseEntitiy, IEntity
     {
+
+
         public string Name { get; set; }
 
         public string Surname { get; set; }

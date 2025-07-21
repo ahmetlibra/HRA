@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    public class Role : BaseEntitiy, IEntity
+    public class Role : BaseEntitiy<Guid>, IEntity
     {
         public string Name { get; set; }
         public virtual ICollection<UserRole> UserRoles { get; set; } = new HashSet<UserRole>();

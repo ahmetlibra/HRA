@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Core.Entities.Abstract
 {
-    public class BaseEntitiy : IEntity
+    public class BaseEntitiy<T> : IEntity
     {
-        public Guid Id { get; set; }
+        public T Id { get; set; }
 
         public Guid TenantId { get; set; }
 

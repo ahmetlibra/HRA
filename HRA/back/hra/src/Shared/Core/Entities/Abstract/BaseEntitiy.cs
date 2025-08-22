@@ -13,14 +13,13 @@ namespace Core.Entities.Abstract
 
         public Guid TenantId { get; set; }
 
-        public UserStatus UserStatus { get; set; } = UserStatus.None; //default value will be waiting for approve
+        public EntityStatus UserStatus { get; set; } = EntityStatus.Pending; 
 
-        public long CreatedDate { get; set; } = DateTime.Now.Ticks;
+        public DateTimeOffset CreatedDate { get; set; } = DateTimeOffset.UtcNow; // Ticks yerine DateTimeOffset kullanmak daha standart ve zaman dilimi (timezone) sorunlarını çözer.
+        public DateTimeOffset? UpdatedDate { get; set; }
 
-        public long? UpdatedDate { get; set; }
+        public T? CreatedUserId { get; set; }
 
-        public string? CreatedUserId { get; set; }
-
-        public string? UpdatedUserId { get; set; }
+        public T? UpdatedUserId { get; set; }
     }
 }

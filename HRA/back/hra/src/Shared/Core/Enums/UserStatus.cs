@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Core.Enums
 {
-    public enum UserStatus
+    public enum EntityStatus
     {
         None,
         Passive,
         Active,
-        Waiting,
+        Pending,
         Deleted
     }
   

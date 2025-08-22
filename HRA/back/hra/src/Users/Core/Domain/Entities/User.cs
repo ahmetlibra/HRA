@@ -15,13 +15,13 @@ namespace Domain.Entities
 
         public string Surname { get; set; }
 
-        public long BirthDay { get; set; } // value of DateTime.Ticks
+        public DateTime BirthDay { get; set; } // value of DateTime.Ticks
 
         public string Email { get; set; }
 
         public string PhoneNumber { get; set; }
 
-        public Int16? IdentityNumber { get; set; }
+        public string? IdentityNumber { get; set; }
 
         public string Password { get; set; }
 

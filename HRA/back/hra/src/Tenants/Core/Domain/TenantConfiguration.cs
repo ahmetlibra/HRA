@@ -8,6 +8,9 @@ namespace Domain
 {
     public class TenantConfiguration
     {
+
+        public Guid TenantId { get; set; }
+
         /// <summary>
         /// Uygulama arayüzünde kullanılacak tema rengi (örneğin: "#0078D4").
         /// </summary>
@@ -21,7 +24,7 @@ namespace Domain
         /// <summary>
         /// Varsayılan dil ayarı (örn: "tr", "en").
         /// </summary>
-        public string Language { get; set; }
+        public string? Language { get; set; }
 
         /// <summary>
         /// Maaş bordrosu modülünün bu tenant için açık olup olmadığı.
@@ -36,12 +39,12 @@ namespace Domain
         /// <summary>
         /// Kullandıkları abonelik planı (örn: "free", "standard", "enterprise").
         /// </summary>
-        public string Plan { get; set; }
+        public string? Plan { get; set; }
 
         /// <summary>
         /// Tenant'a özel tarih formatı (örn: "dd.MM.yyyy", "MM/dd/yyyy").
         /// </summary>
-        public string DateFormat { get; set; }
+        public string? DateFormat { get; set; }
 
         /// <summary>
         /// Zorunlu parola politikası var mı?
@@ -51,6 +54,8 @@ namespace Domain
         /// <summary>
         /// Destek kanalı bağlantısı (örn: özel support linki).
         /// </summary>
-        public string SupportContactUrl { get; set; }
+        public string? SupportContactUrl { get; set; }
+
+        public virtual Tenant? Tenant { get; set; }
     }
 }

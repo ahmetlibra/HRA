@@ -10,7 +10,7 @@ namespace Application.Dtos.Users
          string? Name = null,
          string? Surname = null,
          string? Password = null,
-         long? BirthDay = 0,
+         DateTime? BirthDay = null,
         string? Email = null,
         string? PhoneNumber = null,
         string? UserRule = null);

@@ -1,8 +1,7 @@
 ﻿using Core.Events.Tenant;
 using MassTransit;
 using ProvisioningService.DBService.Abstract;
-using Shared.Events;
-using System.Threading.Tasks;
+
 
 public class TenantCreationRequestedConsumer : IConsumer<TenantCreationRequested>
 {

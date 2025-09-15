@@ -22,7 +22,7 @@ namespace Application.Commands.Users.Add
 
             User user = new User()
             {
-                BirthDay = request.User.BirthDay ?? DateTime.MinValue.Ticks,
+                BirthDay = request.User.BirthDay ?? DateTime.MinValue,
                 Email = request.User.Email,
                 Name = request.User.Name,
                 Surname = request.User.Surname,

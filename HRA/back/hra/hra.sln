@@ -63,6 +63,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StarGateways", "StarGateway
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarGateways", "src\StarGateways\StarGateways\StarGateways.csproj", "{6071DD43-3845-4F32-9E44-0BC3AB26FE93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserGGRPC", "src\Users\Presentation\UserGGRPC\UserGGRPC.csproj", "{38745AC3-36F6-4058-BC38-7B2FDED70323}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{6071DD43-3845-4F32-9E44-0BC3AB26FE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6071DD43-3845-4F32-9E44-0BC3AB26FE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6071DD43-3845-4F32-9E44-0BC3AB26FE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38745AC3-36F6-4058-BC38-7B2FDED70323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38745AC3-36F6-4058-BC38-7B2FDED70323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38745AC3-36F6-4058-BC38-7B2FDED70323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38745AC3-36F6-4058-BC38-7B2FDED70323}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -155,6 +161,7 @@ Global
 		{7CF8FB54-F90A-446B-94DD-EEEE8E006AF1} = {97DF4EC4-B05D-48A1-B907-CE7478F3DD30}
 		{2AA04658-E103-47E7-B143-71D9F35D1E50} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{6071DD43-3845-4F32-9E44-0BC3AB26FE93} = {2AA04658-E103-47E7-B143-71D9F35D1E50}
+		{38745AC3-36F6-4058-BC38-7B2FDED70323} = {497879C2-1601-4530-A81D-7DBE5C51967F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C6DBA52-C66A-4171-8C36-1B2CCBC3E465}

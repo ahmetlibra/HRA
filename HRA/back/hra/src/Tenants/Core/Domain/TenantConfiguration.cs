@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Core.Entities.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace Domain
 {
-    public class TenantConfiguration
+    public class TenantConfiguration : BaseEntitiy<Guid>, IEntity
     {
-
-        public Guid TenantId { get; set; }
 
         /// <summary>
         /// Uygulama arayüzünde kullanılacak tema rengi (örneğin: "#0078D4").

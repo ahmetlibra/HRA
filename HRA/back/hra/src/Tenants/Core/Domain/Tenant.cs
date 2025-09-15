@@ -12,7 +12,7 @@ namespace Domain
     {
         public string Name { get; set; }
         public string Code { get; set; } // unique short string
-        public TenantStorageType StorageType { get; set; } // Shared / Dedicated
+        public TenantStorageType? StorageType { get; set; } // Shared / Dedicated
 
         /// <summary>
         /// ToDo : ConnectionStringKey Güvenliği: ConnectionStringKey'i direkt olarak veritabanında saklamak güvenlik riski oluşturabilir. Bunun yerine Azure Key Vault, AWS Secrets Manager veya HashiCorp Vault gibi bir "secrets management" aracı kullanmayı düşün. Veritabanında sadece bu servisteki anahtarın adını (SecretKey) tutabilirsin. Uygulama başlangıcında bu anahtarla gerçek connection string'i güvenli kasadan çeker.

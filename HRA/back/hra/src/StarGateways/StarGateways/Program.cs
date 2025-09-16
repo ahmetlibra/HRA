@@ -10,9 +10,7 @@ builder.Services.AddReverseProxy()
 
 var app = builder.Build();
 
-
-
-
+app.Configuration.GetSection("ReverseProxy").Bind(new { });
 
 app.MapReverseProxy();
 

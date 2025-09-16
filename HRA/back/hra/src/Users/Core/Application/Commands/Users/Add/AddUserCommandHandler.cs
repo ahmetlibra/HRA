@@ -28,7 +28,7 @@ namespace Application.Commands.Users.Add
                 Surname = request.User.Surname,
                 PhoneNumber = request.User.PhoneNumber ?? string.Empty,
                 Password = PasswordHasher.HashPassword(request.User.Password ?? "123456"),
-                EntitiyStatus = EntityStatus.Pending,
+                EntityStatus = EntityStatus.Pending,
             };
 
 

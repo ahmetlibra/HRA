@@ -41,7 +41,7 @@ namespace Persistence.Migrations
                     b.Property<Guid>("CreatedUserId")
                         .HasColumnType("uuid");
 
-                    b.Property<int>("EntitiyStatus")
+                    b.Property<int>("EntityStatus")
                         .HasColumnType("integer");
 
                     b.Property<string>("Name")
@@ -95,7 +95,7 @@ namespace Persistence.Migrations
                     b.Property<bool>("EnforcePasswordPolicy")
                         .HasColumnType("boolean");
 
-                    b.Property<int>("EntitiyStatus")
+                    b.Property<int>("EntityStatus")
                         .HasColumnType("integer");
 
                     b.Property<string>("Language")

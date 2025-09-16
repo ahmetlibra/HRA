@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class Mig1 : Migration
+    public partial class MigTenant1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -24,7 +24,7 @@ namespace Persistence.Migrations
                     Status = table.Column<int>(type: "integer", nullable: false),
                     Type = table.Column<int>(type: "integer", nullable: false),
                     TenantId = table.Column<Guid>(type: "uuid", nullable: false),
-                    UserStatus = table.Column<int>(type: "integer", nullable: false),
+                    EntityStatus = table.Column<int>(type: "integer", nullable: false),
                     CreatedDate = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
                     UpdatedDate = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     CreatedUserId = table.Column<Guid>(type: "uuid", nullable: false),
@@ -50,7 +50,7 @@ namespace Persistence.Migrations
                     EnforcePasswordPolicy = table.Column<bool>(type: "boolean", nullable: false),
                     SupportContactUrl = table.Column<string>(type: "text", nullable: true),
                     TenantId = table.Column<Guid>(type: "uuid", nullable: false),
-                    UserStatus = table.Column<int>(type: "integer", nullable: false),
+                    EntityStatus = table.Column<int>(type: "integer", nullable: false),
                     CreatedDate = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: false),
                     UpdatedDate = table.Column<DateTimeOffset>(type: "timestamp with time zone", nullable: true),
                     CreatedUserId = table.Column<Guid>(type: "uuid", nullable: false),

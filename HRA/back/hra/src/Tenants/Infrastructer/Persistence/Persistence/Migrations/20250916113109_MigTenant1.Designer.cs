@@ -12,8 +12,8 @@ using Persistence.Data.HrsDbContext;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(HrsTenantDbContext))]
-    [Migration("20250915122711_Mig1")]
-    partial class Mig1
+    [Migration("20250916113109_MigTenant1")]
+    partial class MigTenant1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,6 +44,9 @@ namespace Persistence.Migrations
                     b.Property<Guid>("CreatedUserId")
                         .HasColumnType("uuid");
 
+                    b.Property<int>("EntityStatus")
+                        .HasColumnType("integer");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
@@ -68,9 +71,6 @@ namespace Persistence.Migrations
 
                     b.Property<Guid>("UpdatedUserId")
                         .HasColumnType("uuid");
-
-                    b.Property<int>("EntitiyStatus")
-                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 
@@ -97,6 +97,9 @@ namespace Persistence.Migrations
 
                     b.Property<bool>("EnforcePasswordPolicy")
                         .HasColumnType("boolean");
+
+                    b.Property<int>("EntityStatus")
+                        .HasColumnType("integer");
 
                     b.Property<string>("Language")
                         .HasColumnType("text");
@@ -126,9 +129,6 @@ namespace Persistence.Migrations
 
                     b.Property<Guid>("UpdatedUserId")
                         .HasColumnType("uuid");
-
-                    b.Property<int>("EntitiyStatus")
-                        .HasColumnType("integer");
 
                     b.HasKey("Id");
 

@@ -16,7 +16,7 @@ namespace Persistence.Data
             var optionsBuilder = new DbContextOptionsBuilder<HrsTenantDbContext>();
 
             // appsettings.json'daki connection string'e uygun şekilde düzenle
-            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=hradb;Username=root;Password=root;");
+            optionsBuilder.UseNpgsql("Host=localhost;Port=5432;Database=hra_tenant;Username=root;Password=root;");
 
             return new HrsTenantDbContext(optionsBuilder.Options);
         }

@@ -51,7 +51,6 @@ var app = builder.Build();
 
 
 app.UseCors("AllowAll");
-app.MapGet("api/Test/", () => "Hello, World!");
 
 //Generet db if not exist
 await app.UseEfCoreDbInitializerAsync<HrsUserDbContext>();

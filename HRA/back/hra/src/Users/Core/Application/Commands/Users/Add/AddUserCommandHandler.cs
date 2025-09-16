@@ -22,6 +22,7 @@ namespace Application.Commands.Users.Add
 
             User user = new User()
             {
+                TenantId = Guid.Parse("0199526a-bf86-71a2-94e3-f91da5aeeaf0"),
                 BirthDay = request.User.BirthDay ?? DateTime.MinValue,
                 Email = request.User.Email,
                 Name = request.User.Name,
